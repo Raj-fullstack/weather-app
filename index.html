@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <div class="wrapper">
+    <div class="container">
+      <h1 class="title"><i class="fa-solid fa-cloud-sun logo"></i> Weather App</h1>
+      <div class="search-container">
+        <input class="search_box" type="text" placeholder="🌍 Enter city name">
+        <button class="get_btn" onclick="get_weather_btn()">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </div>
+      <div class="cards hidden">
+        <div class="cards_container">
+          <h2 class="city_name"></h2>
+          <p class="day_name"></p>
+          <div class="weather_icon">
+          </div>
+          <div class="climate"></div>
+          <p class="weather"></p>
+          <p class="realfeelp"> <span> Feels like: <span class="realfeel"></span></p>
+          <div class="temp_container">
+            <span class="min_temp"></span>
+            <span class="max_temp"></span>
+          </div>
+          <div class="extra_info">
+            <p><i class="fa-solid fa-droplet"></i> Humidity: <span class="humidity"></span></p>
+            <p><i class="fa-solid fa-wind"></i> Wind: <span class="wind_speed_deg"></span></p>
+            <p><i class="fa-light fa-gauge"></i> Pressure: <span class="Pressure"></span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="javascript.js"></script>
+</body>
+</html>

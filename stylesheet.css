@@ -1,0 +1,127 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+:root{
+    --margin-bottom:10px ;
+}
+.fa-cloud-sun:before ,.fa-cloud:before,.fa-sun:before {
+    font-size: 70px;
+}
+.fa-cloud-sun.logo:before{
+     font-size: 40px;
+
+}
+body {
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: #fff;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 400px;
+}
+
+.container {
+  background: #ffffff1a;
+  padding: 20px;
+  border-radius: 20px;
+  backdrop-filter: blur(15px);
+  box-shadow: 0px 10px 25px #00000033;
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 20px;
+  font-size: 26px;
+}
+
+.search-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.search_box {
+  flex: 1;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  font-size: 16px;
+}
+
+.get_btn {
+  padding: 12px 16px;
+  background: #ff9800;
+  border: none;
+  border-radius: 10px;
+  color: #ffffff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.get_btn:hover {
+  background: #e68900;
+}
+
+.cards {
+  margin-top: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+.cards_container {
+  background: rgba(0,0,0,0.3);
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.city_name {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.day_name {
+  font-size: 14px;
+  color: #ddd;
+  margin-bottom: 10px;
+}
+
+
+.weather {
+  font-size: 20px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.temp_container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.extra_info p {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.realfeelp{
+    margin-bottom: var(--margin-bottom);
+}
+.climate{
+    font-size: 40px;
+    font-weight: bold;
+}
